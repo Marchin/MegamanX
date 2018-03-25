@@ -1,0 +1,1643 @@
+fileFormatVersion: 2
+guid: 2799c51bb2b9bdb42a879fdbd84fb054
+timeCreated: 1517931977
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Asset 1_0
+    21300002: Asset 1_1
+    21300004: Asset 1_2
+    21300006: Asset 1_3
+    21300008: Asset 1_4
+    21300010: Asset 1_5
+    21300012: Asset 1_6
+    21300014: Asset 1_7
+    21300016: Asset 1_8
+    21300018: Asset 1_9
+    21300020: Asset 1_10
+    21300022: Asset 1_11
+    21300024: Asset 1_12
+    21300026: Asset 1_13
+    21300028: Asset 1_14
+    21300030: Asset 1_15
+    21300032: Asset 1_16
+    21300034: Asset 1_17
+    21300036: Asset 1_18
+    21300038: Asset 1_19
+    21300040: Asset 1_20
+    21300042: Asset 1_21
+    21300044: Asset 1_22
+    21300046: Asset 1_23
+    21300048: Asset 1_24
+    21300050: Asset 1_25
+    21300052: Asset 1_26
+    21300054: Asset 1_27
+    21300056: Asset 1_28
+    21300058: Asset 1_29
+    21300060: Asset 1_30
+    21300062: Asset 1_31
+    21300064: Asset 1_32
+    21300066: Asset 1_33
+    21300068: Asset 1_34
+    21300070: Asset 1_35
+    21300072: Asset 1_36
+    21300074: Asset 1_37
+    21300076: Asset 1_38
+    21300078: Asset 1_39
+    21300080: Asset 1_40
+    21300082: Asset 1_41
+    21300084: Asset 1_42
+    21300086: Asset 1_43
+    21300088: Asset 1_44
+    21300090: Asset 1_45
+    21300092: Asset 1_46
+    21300094: Asset 1_47
+    21300096: Asset 1_48
+    21300098: Asset 1_49
+    21300100: Asset 1_50
+    21300102: Asset 1_51
+    21300104: Asset 1_52
+    21300106: Asset 1_53
+    21300108: Asset 1_54
+    21300110: Asset 1_55
+    21300112: Asset 1_56
+    21300114: Asset 1_57
+    21300116: Asset 1_58
+    21300118: Asset 1_59
+    21300120: Asset 1_60
+    21300122: Asset 1_61
+    21300124: Asset 1_62
+    21300126: Asset 1_63
+    21300128: Asset 1_64
+    21300130: Asset 1_65
+    21300132: Asset 1_66
+    21300134: Asset 1_67
+    21300136: Asset 1_68
+    21300138: Asset 1_69
+    21300140: Asset 1_70
+    21300142: Asset 1_71
+    21300144: Asset 1_72
+    21300146: Asset 1_73
+    21300148: Asset 1_74
+    21300150: Asset 1_75
+    21300152: Asset 1_76
+    21300154: Asset 1_77
+    21300156: Asset 1_78
+    21300158: Asset 1_79
+    21300160: Asset 1_80
+    21300162: Asset 1_81
+    21300164: Asset 1_82
+    21300166: Asset 1_83
+    21300168: Asset 1_84
+    21300170: Asset 1_85
+    21300172: Asset 1_86
+    21300174: Asset 1_87
+    21300176: Asset 1_88
+    21300178: Asset 1_89
+    21300180: Asset 1_90
+    21300182: Asset 1_91
+    21300184: Asset 1_92
+    21300186: Asset 1_93
+    21300188: Asset 1_94
+    21300190: Asset 1_95
+    21300192: Megaman_0
+    21300194: Megaman_1
+    21300196: Megaman_2
+    21300198: Megaman_3
+    21300200: Megaman_4
+    21300202: Megaman_5
+    21300204: Megaman_6
+    21300206: Megaman_7
+    21300208: Megaman_8
+    21300210: Megaman_9
+    21300212: Megaman_10
+    21300214: Megaman_11
+    21300216: Megaman_12
+    21300218: Megaman_13
+    21300220: Megaman_14
+    21300222: Megaman_15
+    21300224: Megaman_16
+    21300226: Megaman_17
+    21300228: Megaman_18
+    21300230: Megaman_19
+    21300232: Megaman_20
+    21300234: Megaman_21
+    21300236: Megaman_22
+    21300238: Megaman_23
+    21300240: Megaman_24
+    21300242: Megaman_25
+    21300244: Megaman_26
+    21300246: Megaman_27
+    21300248: Megaman_28
+    21300250: Megaman_29
+    21300252: Megaman_30
+    21300254: Megaman_31
+    21300256: Megaman_32
+    21300258: Megaman_33
+    21300260: Megaman_34
+    21300262: Megaman_35
+    21300264: Megaman_36
+    21300266: Megaman_37
+    21300268: Megaman_38
+    21300270: Megaman_39
+    21300272: Megaman_40
+    21300274: Megaman_41
+    21300276: Megaman_42
+    21300278: Megaman_43
+    21300280: Megaman_44
+    21300282: Megaman_45
+    21300284: Megaman_46
+    21300286: Megaman_47
+    21300288: Megaman_48
+    21300290: Megaman_49
+    21300292: Megaman_50
+    21300294: Megaman_51
+    21300296: Megaman_52
+    21300298: Megaman_53
+    21300300: Megaman_54
+    21300302: Megaman_55
+    21300304: Megaman_56
+    21300306: Megaman_57
+    21300308: Megaman_58
+    21300310: Megaman_59
+    21300312: Megaman_60
+    21300314: Megaman_61
+    21300316: Megaman_62
+    21300318: Megaman_63
+    21300320: Megaman_64
+    21300322: Megaman_65
+    21300324: Megaman_66
+    21300326: Megaman_67
+    21300328: Megaman_68
+    21300330: Megaman_69
+    21300332: Megaman_70
+    21300334: Megaman_71
+    21300336: Megaman_72
+    21300338: Megaman_73
+    21300340: Megaman_74
+    21300342: Megaman_75
+    21300344: Megaman_76
+    21300346: Megaman_77
+    21300348: Megaman_78
+    21300350: Megaman_79
+    21300352: Megaman_80
+    21300354: Megaman_81
+    21300356: Megaman_82
+    21300358: Megaman_83
+    21300360: Megaman_84
+    21300362: Megaman_85
+    21300364: Megaman_86
+    21300366: Megaman_87
+    21300368: Megaman_88
+    21300370: Megaman_89
+    21300372: Megaman_90
+    21300374: Megaman_91
+    21300376: Megaman_92
+    21300378: Megaman_93
+    21300380: Megaman_94
+    21300382: Megaman_95
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Megaman_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 431
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 431
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 431
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 431
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 431
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 431
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 431
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 431
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 431
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 431
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 382
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 382
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 382
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 382
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 382
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 382
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 382
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 382
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 382
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 343
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 343
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 343
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 343
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 343
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 343
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 343
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 343
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 343
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 343
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 343
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 295
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 295
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 295
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 295
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_34
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 295
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_35
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 295
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_36
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 295
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 295
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_38
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 295
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_39
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 295
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_40
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 294
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 256
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 256
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_45
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 256
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 256
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_47
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 256
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_50
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 256
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 209
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 209
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_53
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 209
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_54
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 209
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_55
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 209
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_56
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 209
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 209
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_58
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 209
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_59
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 209
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_60
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 209
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_61
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 156
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 156
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 159
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_64
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 159
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_65
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 156
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_66
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 168
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 173
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 157
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 108
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_70
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 108
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_71
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 108
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_72
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_73
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 106
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 108
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_75
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 106
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_76
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 108
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 106
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 108
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_79
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 108
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_80
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 108
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_81
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 108
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_82
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 59
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_83
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 59
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_84
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_85
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_87
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_88
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_89
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_90
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 4
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_91
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 4
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_92
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 4
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_93
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 4
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_94
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Megaman_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
