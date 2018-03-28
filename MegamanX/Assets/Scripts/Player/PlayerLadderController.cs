@@ -26,10 +26,9 @@ public class PlayerLadderController : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D other) {
-		if (Input.GetAxis("Vertical")> 0f && CheckTouchingLadder()) {
-			Vector3 parentPosition = transform.position;
+		if (Input.GetAxis("Vertical")> 0f && CheckTouchingLadder() && other.tag == "Stairs") {
 			Vector3 stairsCenter = new Vector3(
-				other.transform.position.x, parentPosition.y, parentPosition.z);
+				other.transform.position.x, transform.position.y, transform.position.z);
 			transform.position = stairsCenter;
 			EnableStairsClimb(true);
 		}
@@ -67,7 +66,7 @@ public class PlayerLadderController : MonoBehaviour {
 
 	void CheckDescending() {
 		RaycastHit2D checkedLadder = OnTopOfLadder();
-		if (checkedLadder && playerStats.finishedClimbingLadder && (Input.GetAxis("Vertical")< 0f)) {
+		if (checkedLadder && playerStats.finishedClimbingLadder && (Input.GetAxis("Vertical") < 0f)) {
 			transform.position = checkedLadder.transform.position;
 			EnableStairsClimb(true);
 		}
