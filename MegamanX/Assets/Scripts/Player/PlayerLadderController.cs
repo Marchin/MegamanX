@@ -3,9 +3,9 @@
 public class PlayerLadderController : MonoBehaviour {
 	public PlayerStats playerStats;
 	public LayerMask ladderLayer;
+	Rigidbody2D playerRigidbody;
 	public float climbSpeed = 2f;
 	public float ladderOffset = 0.7f;
-	Rigidbody2D playerRigidbody;
 
 	void Start() {
 		playerRigidbody = GetComponent<Rigidbody2D>();

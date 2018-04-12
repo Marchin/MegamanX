@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Shot : MonoBehaviour {
-	public LayerMask contactLayer;
-	public Stats stats;
-	public float speed = 1f;
-	public float damage = 1f;
+	[SerializeField] LayerMask contactLayer;
+	[SerializeField] Stats stats;
+	[SerializeField] float speed = 1f;
+	[SerializeField] float damage = 1f;
+	[SerializeField] float lifetime = 1f;
 
-	void Start() {
+	void OnEnable() {
+		Vector2 speedVector;
+		Invoke("SelfDisable", lifetime);
 		if (!stats.facingRight) {
-			speed = -speed;
+			speedVector = new Vector2(-speed, 0f);
+		} else {
+			speedVector = new Vector2(speed, 0f);
 		}
-		GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0f);
-		StartCoroutine(SelfDestroy());
+		GetComponent<Rigidbody2D>().velocity = speedVector;
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -27,9 +31,8 @@ public class Shot : MonoBehaviour {
 		return (((contactLayer >> contactedObject.layer)& 1)== 1);
 	}
 
-	IEnumerator SelfDestroy() {
-		yield return new WaitForSeconds(5);
-		Destroy(gameObject);
+	void SelfDisable() {
+		gameObject.SetActive(false);
 	}
 
 	virtual public void MakeDamage() { }
