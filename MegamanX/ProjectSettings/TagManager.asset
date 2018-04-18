@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Stairs
+  - Ladders
   layers:
   - Default
   - TransparentFX
@@ -44,6 +44,9 @@ TagManager:
     locked: 0
   - name: Level
     uniqueID: 834379849
+    locked: 0
+  - name: Ladders
+    uniqueID: 3475029355
     locked: 0
   - name: Player
     uniqueID: 722009663

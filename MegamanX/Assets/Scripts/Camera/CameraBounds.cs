@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraBounds : MonoBehaviour {
-	public Camera mainCamera;
+	Camera mainCamera;
 	Collider2D aCameraBound;
-	// Use this for initialization
+
 	void Start() {
+		mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
 		aCameraBound = GetComponent<Collider2D>();
 	}
 
-	// Update is called once per frame
 	void Update() {
 
 	}
@@ -18,7 +18,14 @@ public class CameraBounds : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.GetComponent<PlayerMovement>()) {
 			mainCamera.GetComponent<CameraController>()
-				.SetBounds(aCameraBound.bounds.min, aCameraBound.bounds.max);
+				.AddBounds(aCameraBound.bounds.min, aCameraBound.bounds.max);
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D other) {
+		if (other.GetComponent<PlayerMovement>()) {
+			mainCamera.GetComponent<CameraController>()
+				.RemoveBounds(aCameraBound.bounds.min, aCameraBound.bounds.max);
 		}
 	}
 }

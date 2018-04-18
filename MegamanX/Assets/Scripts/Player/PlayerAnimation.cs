@@ -6,13 +6,12 @@ public class PlayerAnimation : MonoBehaviour {
 	public PlayerStats playerStats;
 	Animator animator;
 	bool wasOnLadder;
-	
 
 	void Start() {
 		animator = GetComponent<Animator>();
 		wasOnLadder = playerStats.isOnLadder;
 	}
-	void Update() {
+	void LateUpdate() {
 		CheckMovement();
 		CheckJump();
 		CheckGrounded();
@@ -41,14 +40,6 @@ public class PlayerAnimation : MonoBehaviour {
 		animator.SetBool("IsToLand", playerStats.isToLand);
 	}
 
-	void EnableControl() {
-		playerStats.isControllable = true;
-	}
-
-	void DisableControl() {
-		playerStats.isControllable = false;
-	}
-
 	void CheckShooting() {
 		if (playerStats.isShooting) {
 			animator.SetBool("Shoot", playerStats.isShooting);
@@ -65,20 +56,26 @@ public class PlayerAnimation : MonoBehaviour {
 			} else {
 				animator.speed = 1f;
 			}
-		} else if (wasOnLadder && !playerStats.isOnLadder && playerStats.onTopOfLadder) {
-			StartCoroutine(FinishingLadderClimbing());
-		} else if (!playerStats.onTopOfLadder) {
+		} else if (wasOnLadder && !playerStats.isOnLadder &&
+			playerStats.onTopOfLadder && Input.GetAxis("Vertical")> 0f) {
+
+			StartFinishingLadderClimbing();
+		} else if (wasOnLadder && !playerStats.isOnLadder) {
 			EndLadderAnimation();
+		}
+		if (playerStats.ladderFromTop) {
+			animator.SetTrigger("LadderFromTop");
+			playerStats.ladderFromTop = false;
 		}
 	}
 
-	IEnumerator FinishingLadderClimbing() {
+	void StartFinishingLadderClimbing() {
 		animator.SetTrigger("FinishingLadderClimbing");
 		playerStats.isControllable = false;
+		Invoke("EndFinishingLadderClimbing", 0.4f);
+	}
 
-		yield return new WaitForSeconds(1f);
-
-		playerStats.finishedClimbingLadder = true;
+	void EndFinishingLadderClimbing() {
 		playerStats.isControllable = true;
 		EndLadderAnimation();
 	}

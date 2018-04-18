@@ -2,11 +2,11 @@
 
 public class PlayerJump : MonoBehaviour {
 	#region  Variables
-	public PlayerStats playerStats;
-	public LayerMask levelLayer;
-	public float jumpForce = 10000f;
-	public float minJumpSpeed = 3f;
-	public float fallGravity = 3f;
+	[SerializeField] PlayerStats playerStats;
+	[SerializeField] LayerMask levelLayer;
+	[SerializeField] float jumpForce = 10000f;
+	[SerializeField] float minJumpSpeed = 3f;
+	[SerializeField] float fallGravity = 3f;
 	Rigidbody2D playerRigidbody;
 	const float landCheckOffset = 1.5f;
 	const float groundCheckOffset = 0.55f;

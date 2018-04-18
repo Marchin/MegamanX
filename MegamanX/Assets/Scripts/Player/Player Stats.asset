@@ -16,8 +16,8 @@ MonoBehaviour:
   beingDamaged: 0
   isJumping: 0
   isMoving: 0
-  isToLand: 0
-  isGrounded: 1
+  isToLand: 1
+  isGrounded: 0
   isShooting: 0
   isControllable: 1
   isDashing: 0
