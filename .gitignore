@@ -35,6 +35,7 @@ sysinfo.txt
 # Unity3D .gitignore file.
 # Store this file at the root of your local repository.
 .DS_Store
+Library/
 Library/AssetImportState
 Library/AssetServerCacheV3
 Library/FailedAssetImports.txt
