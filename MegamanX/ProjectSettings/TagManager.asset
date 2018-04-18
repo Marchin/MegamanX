@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ladders
+  - Stairs
   layers:
   - Default
   - TransparentFX
@@ -17,9 +18,9 @@ TagManager:
   - Level
   - Player
   - Ladders
-  - 
-  - 
-  - 
+  - Enemies
+  - PlayerShots
+  - EnemiesShots
   - 
   - 
   - 

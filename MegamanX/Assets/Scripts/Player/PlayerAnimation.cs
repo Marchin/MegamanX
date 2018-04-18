@@ -57,7 +57,8 @@ public class PlayerAnimation : MonoBehaviour {
 				animator.speed = 1f;
 			}
 		} else if (wasOnLadder && !playerStats.isOnLadder &&
-			playerStats.onTopOfLadder && Input.GetAxis("Vertical")> 0f) {
+			playerStats.onTopOfLadder && Input.GetAxis("Vertical")> 0f
+            && !playerStats.hasLadderAbove) {
 
 			StartFinishingLadderClimbing();
 		} else if (wasOnLadder && !playerStats.isOnLadder) {
@@ -84,4 +85,14 @@ public class PlayerAnimation : MonoBehaviour {
 		animator.SetLayerWeight(1, 0f);
 		animator.speed = 1f;
 	}
+
+    //Animation Events
+
+    void EnableControl() {
+        playerStats.isControllable = true;
+    }
+
+    void DisableControl() {
+        playerStats.isControllable = false;
+    }
 }

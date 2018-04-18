@@ -27,7 +27,7 @@ public class PlayerJump : MonoBehaviour {
 
 	void CheckLandingAnimStart() {
 		if ((CheckFoot(landCheckOffset)) &&
-			(playerRigidbody.velocity.y < 0f)) {
+			(playerRigidbody.velocity.y <= 0f)) {
 
 			playerStats.isToLand = true;
 		} else {
@@ -51,7 +51,9 @@ public class PlayerJump : MonoBehaviour {
 	}
 
 	void Jump() {
-		if ((Input.GetButtonDown("Jump"))&& playerStats.isGrounded) {
+		if ((Input.GetButtonDown("Jump")) && playerStats.isGrounded && 
+            !playerStats.isOnLadder) {
+
 			Vector2 jumpVector = new Vector2(0f, jumpForce);
 			playerRigidbody.AddForce(jumpVector);
 			playerStats.isJumping = true;

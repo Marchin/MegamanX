@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Shot : MonoBehaviour {
-	[SerializeField] LayerMask contactLayer;
 	[SerializeField] Stats stats;
 	[SerializeField] float speed = 1f;
 	[SerializeField] float damage = 1f;
@@ -21,17 +20,12 @@ public class Shot : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (IsContactingTarget(other.gameObject)) {
-			Debug.Log("YEAH");
-			MakeDamage();
-		}
-	}
-
-	bool IsContactingTarget(GameObject contactedObject) {
-		return (((contactLayer >> contactedObject.layer)& 1)== 1);
+		MakeDamage();
+        SelfDisable();   
 	}
 
 	void SelfDisable() {
+        CancelInvoke();
 		gameObject.SetActive(false);
 	}
 

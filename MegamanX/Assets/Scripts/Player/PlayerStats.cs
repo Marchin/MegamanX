@@ -8,5 +8,6 @@ public class PlayerStats : Stats {
     public bool isDashing;
     public bool isOnLadder;
     public bool onTopOfLadder;
+    public bool hasLadderAbove;
     public bool ladderFromTop;
 }
