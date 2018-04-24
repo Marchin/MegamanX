@@ -3,10 +3,10 @@
 public class PlayerLadderController : MonoBehaviour {
     [SerializeField] PlayerStats playerStats;
     [SerializeField] LayerMask ladderLayer;
+    [SerializeField] float climbSpeed = 2f;
+    [SerializeField] float ladderOffset = 0.5f;
+    [SerializeField] float fromTopAnimation = 0.2f;
     Rigidbody2D playerRigidbody;
-    public float climbSpeed = 2f;
-    public float ladderOffset = 0.5f;
-    const float fromTopAnimation = 0.2f;
     int numLevelLayer;
     int numPlayerLayer;
 
@@ -87,9 +87,8 @@ public class PlayerLadderController : MonoBehaviour {
 
             playerStats.ladderFromTop = true;
             playerStats.isControllable = false;
-
             EnableStairsClimb(true);
-            Invoke("DescendingRepositioning", 0.2f);
+            Invoke("DescendingRepositioning",  0.2f);
         }
     }
 
@@ -104,7 +103,6 @@ public class PlayerLadderController : MonoBehaviour {
     void CheckFinishedClimbing() {
         playerStats.hasLadderAbove = LadderAbove(0f);
         if (!playerStats.hasLadderAbove && Input.GetAxis("Vertical") > 0f) {
-
             EnableStairsClimb(false);
             Vector3 MoveOnTop = new Vector3(0f, 0.3f, 0f);
             transform.position += MoveOnTop;
@@ -121,11 +119,13 @@ public class PlayerLadderController : MonoBehaviour {
 
     bool LadderAbove(float offsetMiddle) {
         Vector3 vOffset = new Vector3(0f, offsetMiddle, 0f);
-        return Physics2D.Raycast((transform.position + vOffset), Vector2.up, 0f, ladderLayer);
+        return Physics2D.Raycast((transform.position + vOffset), 
+            Vector2.up, 0f, ladderLayer);
     }
 
     bool LadderBelow(float offsetMiddle) {
         Vector3 vOffset = new Vector3(0f, offsetMiddle, 0f);
-        return Physics2D.Raycast((transform.position + vOffset), Vector2.down, 0f, ladderLayer);
+        return Physics2D.Raycast((transform.position + vOffset), 
+            Vector2.down, 0f, ladderLayer);
     }
 }
